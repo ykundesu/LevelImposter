@@ -1,6 +1,6 @@
 ﻿namespace LevelImposter.Core
 {
-    // Among Us     0 - 32
+    // Among Us     0 - 50
     // TOR          60 - 73, 100 - 149
     // Las Monjas   60 - 69, 75 - 194
     // StellaRoles  60 - 169
@@ -11,7 +11,7 @@
 
     public enum LIRpc
     {
-        FireTrigger = 50,   // Fires a global trigger on an object
+        FireTrigger = 51,   // Fires a global trigger on an object
         TeleportPlayer,     // Uses a util-tele object
         SyncMapID,          // Syncs the map ID in the lobby
         SyncRandomSeed,     // Syncs a random seed for util-triggerrand
